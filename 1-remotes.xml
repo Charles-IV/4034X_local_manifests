@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Sync my Stuff -->
+	<remote name="Charles-IV" fetch="https://github.com/Charles-IV" />
+</manifest>
+

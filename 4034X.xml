@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Sync my Stuff -->
+	<project path="device/tcl/4034X" name="android_device_tcl_4034X" remote="Charles-IV" revision="cm-13.0" />
+	<project path="kernel/tcl/4034X" name="android_kernel_tcl_4034X" remote="Charles-IV" revision="cm-13.0" />
+	<project path="vendor/tcl/4034X" name="android_vendor_tcl_4034X" remote="Charles-IV" revision="cm-13.0" />
+</manifest>
