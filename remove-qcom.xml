@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- remove qcom in manifest.xml -->
+	<remove-project name="CyanogenMod/android_device_qcom_sepolicy" />
+	<remove-project name="CyanogenMod/android_system_qcom" />
+	<remove-project name="platform/hardware/qcom/msm8960" />
+	<remove-project name="platform/hardware/qcom/msm8994" />
+	<remove-project name="platform/hardware/qcom/msm8x26" />
+	<remove-project name="platform/hardware/qcom/msm8x27" />
+	<remove-project name="platform/hardware/qcom/msm8x74" />
+	<remove-project name="platform/hardware/qcom/msm8x84" />
+<!-- remove qcom in /manifests/snippets/hal_cm_all.xml -->
+	<remove-project name="CyanogenMod/android_hardware_qcom_audio" />
+	<remove-project name="CyanogenMod/android_hardware_qcom_bt" />
+	<remove-project name="CyanogenMod/android_hardware_qcom_camera" />
+	<remove-project name="CyanogenMod/android_hardware_qcom_display" />
+	<remove-project name="CyanogenMod/android_hardware_qcom_fm" />
+	<remove-project name="CyanogenMod/android_hardware_qcom_gps" />
+	<remove-project name="CyanogenMod/android_hardware_qcom_keymaster" />
+	<remove-project name="CyanogenMod/android_hardware_qcom_media" />
+	<remove-project name="CyanogenMod/android_hardware_qcom_wlan" /> 
+<!--	<remove-project name="CyanogenMod/android_vendor_qcom_opensource_dataservices" />
+	<remove-project name="CyanogenMod/android_vendor_qcom_opensource_dpm" />
+	<remove-project name="CyanogenMod/android_vendor_qcom_opensource_time-services" /> -->
+
+</manifest>
