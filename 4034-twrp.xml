@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/alcatel/4034" name="AndroidMediatekRecoveryDevelopment/android_device_alcatel_4034" />
+  <project path="device/alcatel/4034" name="AndroidMediatekRecoveryDevelopment/android_device_alcatel_4034" revision="master" />
 
   <project path="external/busybox" name="LineageOS/android_external_busybox" revision="cm-13.0" />
   <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" revision="android-6.0" />
