@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="device/alcatel/4034" name="AndroidMediatekRecoveryDevelopment/android_device_alcatel_4034" revision="master" />
+  <!-- i haven't forked the device tree, so i cant modify it, so i have to duplicate kernel and vendor to match the device tree -->
+  <project path="vendor/alcatel/4034" name="android_vendor_tcl_4034X" revision="cm-13.0" remote="Charles-IV" />
+  <project path="kernel/alcatel/4034" name="android_kernel_tcl_4034X" revision="cm-13.0" remote="Charles-IV" />
 
   <project path="external/busybox" name="LineageOS/android_external_busybox" revision="cm-13.0" />
   <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" revision="android-6.0" />
